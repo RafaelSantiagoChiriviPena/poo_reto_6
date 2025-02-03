@@ -186,4 +186,4 @@ if __name__ == "__main__":
     except ValueError:
         print("El dato ingresado no es una cadena de caracteres")
 ```
-Ya que anteriormente habia puesto en practica el tema de las excepciones básicas del estilo de `Value Error`, el programa hecho para el `reto_1` resulto ser de utilidad para este reto, y en el caso del punto 1.2, no se hizo necesaria la adición de una excepcion puestos que sin importar el input, este contaba como una cadena de caracteres, haciendo posible su analisis como un palindromo, asi que incluso si se ingresan datos numericos, el resultado seria un `"La palabra {"".join(text)} NO es un palindromo"` 
+Ya que anteriormente habia puesto en practica el tema de las excepciones básicas del estilo de `ValueError`, el programa hecho para el `reto_1` resulto ser de utilidad para este reto, y en el caso del punto 1.2, no se hizo necesaria la adición de una excepcion puestos que sin importar el input, este contaba como una cadena de caracteres, haciendo posible su analisis como un palindromo, asi que incluso si se ingresan datos numericos, el resultado seria un `"La palabra {"".join(text)} NO es un palindromo"` 
